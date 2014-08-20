@@ -59,3 +59,33 @@ class Nissan extends Light{
 	public $maxSpeed=250;
 }
 
+class Lada extends Bus{
+	public $color='lime';
+	public $doors=4;
+	public $maxSpeed=150;
+}
+class Kamaz extends Bus{
+	public $color='black';
+	public $doors=2;
+	public $maxSpeed=100;
+}
+class Bogdan extends Bus{
+	public $color='white';
+	public $doors=6;
+	public $maxSpeed=75;
+}
+class Moskvich extends Wen{
+	public $color='red';
+	public $doors=4;
+	public $maxSpeed=50;
+}
+class Opel extends Wen{
+	public $color='pink';
+	public $doors=3;
+	public $maxSpeed=80;
+}
+class Tayota extends Wen{
+	public $color='orange';
+	public $doors=4;
+	public $maxSpeed=250;
+}
